@@ -1,0 +1,15 @@
+{
+  "name": "nft-chaincode",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "fabric-contract-api": "^2.0.0",
+    "fabric-shim": "^2.0.0",
+    "tslog": "^3.3.4"
+  },
+  "scripts": {
+    "chaincode:start": "fabric-chaincode-node server",
+    "start": "fabric-chaincode-node start"
+  }
+}

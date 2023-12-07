@@ -1,0 +1,5 @@
+{
+  "address": "7.tcp.eu.ngrok.io:18800",
+  "dial_timeout": "10s",
+  "tls_required": false
+}
